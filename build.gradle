@@ -26,8 +26,7 @@ dependencies {
 	implementation('org.springframework.boot:spring-boot-starter-security')
 	implementation('org.springframework.boot:spring-boot-starter-web')
 
-	implementation('org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.0.6.RELEASE')
+	implementation("org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:${springBootVersion}")
 	
-	implementation('org.springframework.security:spring-security-jwt:1.0.9.RELEASE')
-	implementation('org.springframework.security.oauth:spring-security-oauth2:2.3.4.RELEASE')
+	implementation('org.springframework.security:spring-security-oauth2-jose')
 }
